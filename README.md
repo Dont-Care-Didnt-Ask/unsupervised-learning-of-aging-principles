@@ -1,4 +1,4 @@
-# Project report template
+# Unsupervised learning of aging principles from longitudinal data
 
 Think about the report as a research paper. Only text, references and pictures demonstrating the logic of your research. All code is placed in a separate notebook.
 
@@ -11,6 +11,11 @@ Use single # for project title, ## for sections and ### for subsections of your 
 Describe your task and its background. Imagine that your potential employer will read this report. Try to use simple language for explaining your task and hypothesis but be precise in terms.
 
 Create a separate bibtex file (`.bib` extension) to store the references. Any bibtex reference can be obtained from google scholar by clicking on `cite` button and choosing `bibtex` option. Use the following directive to cite something inside the text of your report {cite}`bibtex_citekey`. A useful bibtex guide is here [guide](https://www.bibtex.com/g/bibtex-format/).
+
+1.  Train AE-AR model on mouse phenome database. Explain what is dFI.
+2.  Check different correlations of dFI with known aging biomarkers.
+
+{cite}`avchaciov2022unsupervised`
 
 ## Results
 
@@ -33,8 +38,43 @@ Use the following directive to refer to a particular picture in the text {numref
 
 Discuss your results here and answer additional questions from questions/tasks section of **project proposal**. 
 
+Project tasks/questions:
+
+
+3.  What paradigm of aging do authors follow (program/quasi-program/stochastic)?
+
+what is program
+
+what is quai-program
+
+what is stochastic
+
+There are two major paradigms around ageing: the first one is seeing ageing as a consequence of developmental process, for example, some mutations can provide with some advantages early in live, but become pathological later in life [Vijg and Dong, 2020]. The second paradigm is ageing resulting from a stochastic process of damage accumulation [Seale et al., 2022]. 
+
+Если в гугле ввести quasi-program aging, то будет статья, где написано 
+Aging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. Ironically, this is often misunderstood as a sort of programmed aging. In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905065/
+
+
+
+4.  Describe some weak points of the paper (if any).
+
+the authors use linear auto-regressor
+
+5.  Could you suggest improvements to the approach?
+
+
+6.  Why do authors call their approach unsupervised? 
+They do not fit any labels
+
+
 ## Credits
-This text prepared by [Team member 1](https://linktoyourprofile/scholar/or/linkedin.com) ...
+This text prepared by
+
+Mikhail Seleznyov
+Mikhail Zybin
+Nikolay Kotoyants
+
 
 ## References
 
