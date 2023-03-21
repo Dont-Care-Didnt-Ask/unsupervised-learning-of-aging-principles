@@ -132,7 +132,7 @@ git clone https://github.com/gero-science/mice_dfi
 cd mice_dfi
 
 conda create -n cba python=3.8 pip
-conda activate
+conda activate cba
 ```
 Then, go to `src/mice_dfi/dataset/loader.py` and set the variable `_GLOBAl_DIR_PATH`.
 
