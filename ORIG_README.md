@@ -125,7 +125,6 @@ by treatment with rapamycin.
 
 
 ## Installation
-~~Use `pip` install to install a package~~. 
 Use a conda environment to set things up.
 ```bash
 git clone https://github.com/gero-science/mice_dfi
