@@ -20,12 +20,12 @@ In the paper, dFI was compared to the following markers: PFI (physiological frai
 
 We rerun the notebooks in the repository, and the results were slightly different numerically, but all of the author’s claims still hold. For example, we can look at this picture:
 
-```{figure} notebooks/figs/fig6g_rapamycin_dfi_delta.svg
+```{figure} figs/fig6g_rapamycin_dfi_delta.svg
 :name: rapamycin_dfi_delta
 Change between two consecutive measurements of dFI
 ```
 
-![Change between two consecutive measurements of dFI](./notebooks/figs/fig6g_rapamycin_dfi_delta.svg)
+![Change between two consecutive measurements of dFI](./figs/fig6g_rapamycin_dfi_delta.svg)
 
 ## Discussion
 
