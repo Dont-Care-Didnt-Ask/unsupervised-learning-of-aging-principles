@@ -125,11 +125,20 @@ by treatment with rapamycin.
 
 
 ## Installation
-Use `pip` install to install a package. 
+~~Use `pip` install to install a package~~. 
+Use a conda environment to set things up.
 ```bash
 git clone https://github.com/gero-science/mice_dfi
 cd mice_dfi
-pip install .
+
+conda create -n cba python=3.8 pip
+conda activate
+```
+Then, go to `src/mice_dfi/dataset/loader.py` and set the variable `_GLOBAl_DIR_PATH`.
+
+Finally, run
+```
+/home/<username>/miniconda3/envs/cba/bin/pip install .
 ```
 
 ## Obtaining MPD datasets
