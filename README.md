@@ -16,6 +16,8 @@ The theory behind this indicator is the science of dynamical systems. The idea o
 
 Our task is basically to reproduce the results of this paper. It includes training a deep learning model on the mouse phenome database and checking correlations of dFI with known aging biomarkers. The official implementation is available on github. It is written in python and Tensorflow. It took quite some time to configure and launch it, but we managed to do it in the end.
 
+In particular, the link to the dataset `Yuan2_strainmeans.csv` was not working. We found it in the internet, but we are not sure, that this is the same version, since results of our run differ a bit from what we saw in the paper.
+
 In the paper, dFI was compared to the following markers: PFI (physiological frailty index), RDW (red blood cell distribution width), BW (body weight), C-reactive protein, murine chemokine CXCL1, total luciferase ﬂux. Overall, they turned out to be strongly associated. Also, authors showed, that dFI reflects lifespan-modulating interventions: a high-fat diet increases the dFI (for male mices), and rapamycin treatment decreases it.
 
 We rerun the notebooks in the repository, and the results were slightly different numerically, but all of the author’s claims still hold. For example, we can look at this picture:
@@ -26,6 +28,17 @@ Change between two consecutive measurements of dFI
 ```
 
 ![Change between two consecutive measurements of dFI](./figs/fig6g_rapamycin_dfi_delta.svg)
+
+
+In the [paper](https://www.biorxiv.org/content/10.1101/2020.01.23.917286v1.full.pdf), page 8, figure 7c, they have another result:
+
+```{figure} figs/orig_fig6g_rapamycin_dfi_delta.JPG
+:name: orig_rapamycin_dfi_delta
+Original change between two consecutive measurements of dFI
+```
+
+![Original change between two consecutive measurements of dFI](./figs/orig_fig6g_rapamycin_dfi_delta.JPG)
+
 
 ## Discussion
 
