@@ -20,8 +20,13 @@ _datasets = (
     ('Yuan3', 'serum'),
     ('Yuan2', 'lifespan'),
 )
+
+#_datasets_misc = {
+#    'Yuan2_strainmeans': ('https://mpdpreview.jax.org/projects/Yuan2/csvstrainmeans', 'lifespan'),
+#}
+
 _datasets_misc = {
-    'Yuan2_strainmeans': ('https://mpdpreview.jax.org/projects/Yuan2/csvstrainmeans', 'lifespan'),
+    'Yuan2_strainmeans': ('https://phenome.jax.org/api/pheno/strainmeans/23401?csv=1', 'lifespan'),
 }
 
 _dataset_ipt1 = {
