@@ -16,7 +16,9 @@ import glob
 import pandas as pd
 import numpy as np
 
-_GLOBAl_DIR_PATH = os.path.dirname(__file__) + '/raw'
+#_GLOBAl_DIR_PATH = os.path.dirname(__file__) + '/raw'
+_GLOBAl_DIR_PATH = ...change to the path to project dir (e.g. bla/bla/mice_dfi)... + '/raw'
+
 _GLOBAl_DATA_PATH = dict(
     CBC='CBC',
     bone='bone',
