@@ -14,19 +14,6 @@ The theory behind this indicator is the science of dynamical systems. The idea o
 
 ## Results
 
-This section is for presenting and describing your results. Put pictures, text, references, formulae and all that you need here. You are free to put code here also but it is quite redundant because you are also preparing the notebook with code and comments. 
-
-Put figures in your report. If some of the pictures were produced with python code, save them in a separate folder within the folder of your project. Use the following directive to put a figure inside the text:
-
-```{figure} figs/hallmarks_taxonomy.png
-:name: hallmarks_taxonomy
-Hallmarks taxonomy.
-```
-
-Use the following directive to refer to a particular picture in the text {numref}`hallmarks_taxonomy`.
-
-—
-
 Our task is basically to reproduce the results of this paper. It includes training a deep learning model on the mouse phenome database and checking correlations of dFI with known aging biomarkers. The official implementation is available on github. It is written in python and Tensorflow. It took quite some time to configure and launch it, but we managed to do it in the end.
 
 In the paper, dFI was compared to the following markers: PFI (physiological frailty index), RDW (red blood cell distribution width), BW (body weight), C-reactive protein, murine chemokine CXCL1, total luciferase ﬂux. Overall, they turned out to be strongly associated. Also, authors showed, that dFI reflects lifespan-modulating interventions: a high-fat diet increases the dFI (for male mices), and rapamycin treatment decreases it.
@@ -37,6 +24,8 @@ We rerun the notebooks in the repository, and the results were slightly differen
 :name: rapamycin_dfi_delta
 Change between two consecutive measurements of dFI
 ```
+
+![Change between two consecutive measurements of dFI](./notebooks/figs/fig6g_rapamycin_dfi_delta.svg)
 
 ## Discussion
 
@@ -62,11 +51,10 @@ Also, it seems reasonable to try tweaking the model architecture. Namely, change
 The approach belongs to the class of unsupervised learning algorithms because it does not require labels associated with age, mortality, and morbidity. The authors create a deep neural network composed of denoising auto-encoder, whose function is to perform dimensionality reduction, and of auto-regressor, which models the stochastic dynamics of the dFI. dFI is an output of the model but, at the same time, not the result of prediction of any label.
 
 ## Credits
-This text was prepared by
 
-Mikhail Seleznyov
-Mikhail Zybin
-Nikolay Kotoyants
+The report text: Mikhail Zybin, Mikhail Seleznyov.
+
+Reproducing results: Nikolay Kotoyants, Mikhail Seleznyov.
 
 ## References
 
