@@ -47,7 +47,7 @@ In the [paper](https://www.biorxiv.org/content/10.1101/2020.01.23.917286v1.full.
 Original change between two consecutive measurements of dFI
 ```
 
-<img src="./figs/orig_fig6g_rapamycin_dfi_delta.JPG" width="38%">
+<img src="./figs/orig_fig6g_rapamycin_dfi_delta.JPG" width="25%">
 
 We can see, that absolute values are different, but their relative position (and therefore conclusion) is the same. The difference might be due to discrepancy in dataset version, or due to stochasticity in neural net training process (on different hardware results might vary). In the end, absolute value of a biomarker is not as important, as it's behaviour as a whole.
 
