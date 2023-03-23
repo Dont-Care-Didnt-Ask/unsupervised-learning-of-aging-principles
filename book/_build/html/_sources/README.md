@@ -50,8 +50,6 @@ We can see, that absolute values are different, but their relative position (and
 
 ## Discussion
 
-Discuss your results here and answer additional questions from questions/tasks section of **project proposal**. 
-
 ### The paradigm of aging
 
 There are two major paradigms around aging: the first one is seeing aging as a consequence of developmental process, for example, some mutations can provide some advantages early in life, but become pathological later in life. The second paradigm is aging resulting from a stochastic process of damage accumulation. Additionally, there is a view that aging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. This is often misunderstood as a sort of programmed aging. In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs.
