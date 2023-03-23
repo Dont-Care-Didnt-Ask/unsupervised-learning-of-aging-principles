@@ -6,7 +6,7 @@ Wouldn’t you like to know, how long will you live? And if somebody asked you t
 
 Biomarker of aging is a measurable characteristic of a living creature, which predicts longevity and future functional capacity better, then chronological age. Discovering good biomarkers of aging is crucial for testing ways to extend lifespan, since the change in biomarkers would be observable throughout the lifespan of an organism. This in term allows for faster research iterations and brings us closer to the world without aging.
 
-Authors of paper "Identification of a blood test-based biomarker of aging through deep learning of aging trajectories in large phenotypic datasets of mice" {cite}`avchaciov2022unsupervised` claim to find a new biomarker — dynamic Frailty Index (dFI), which correlates well with existing ones, and has the benefit of being computed from easily measurable blood parameters. Moreover, this biomarker was found in unsupervised fashion, by analyzing a number of cross-sectional and longitudinal datasets.
+Authors of paper ["Identification of a blood test-based biomarker of aging through deep learning of aging trajectories in large phenotypic datasets of mice"](https://www.biorxiv.org/content/10.1101/2020.01.23.917286v1.full) claim to find a new biomarker — dynamic Frailty Index (dFI), which correlates well with existing ones, and has the benefit of being computed from easily measurable blood parameters. Moreover, this biomarker was found in unsupervised fashion, by analyzing a number of cross-sectional and longitudinal datasets.
 
 The theory behind this indicator is the science of dynamical systems. The idea of the order parameter associated with instability is a generalization of a concept initially introduced to describe phase transitions in thermodynamics. The idea was further developed for applications to open non-equilibrium systems: next to the critical point, the dynamics of stable components of a system is completely determined by the "slow" dynamics of only a few "order-parameters". The dFI identiﬁed as an approximation to the order parameter is a fundamental macroscopic property of the aging organism as a non-equilibrium system.
 
@@ -32,20 +32,10 @@ We rerun the notebooks in the repository, which perform all of aforementioned ex
 
 Let's look at the change between to consecutive measurements of dFI in groups with and without rapamycin treatment (rapamycin is a drug, which has been shown to decelerate aging in mice).
 
-```{figure} figs/fig6g_rapamycin_dfi_delta.svg
-:name: rapamycin_dfi_delta
-Change between two consecutive measurements of dFI
-```
-
 ![Change between two consecutive measurements of dFI](./figs/fig6g_rapamycin_dfi_delta.svg)
 
 
 In the [paper](https://www.biorxiv.org/content/10.1101/2020.01.23.917286v1.full.pdf), page 8, figure 7c, authors have another result:
-
-```{figure} figs/orig_fig6g_rapamycin_dfi_delta.JPG
-:name: orig_rapamycin_dfi_delta
-Original change between two consecutive measurements of dFI
-```
 
 <img src="./figs/orig_fig6g_rapamycin_dfi_delta.JPG" width="25%">
 
@@ -89,9 +79,4 @@ Reproducing results: Nikolay Kotoyants, Mikhail Seleznyov.
 
 ## References
 
-```{bibliography}
-:style: plain
-:filter: docname in docnames
-```
-
-
+- ["Identification of a blood test-based biomarker of aging through deep learning of aging trajectories in large phenotypic datasets of mice"](https://www.biorxiv.org/content/10.1101/2020.01.23.917286v1.full)
