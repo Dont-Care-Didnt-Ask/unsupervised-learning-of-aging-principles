@@ -9,3 +9,6 @@ venv_py3/
 src/mice_dfi/dataset/raw/
 notebooks/.ipynb_checkpoints/
 .ipynb_checkpoints
+do_not_commit.md
+raw/
+build/
